@@ -29,7 +29,7 @@ spec:
         tier: api
         project: expense
     spec:
-      initContainers:
+      containers:
       - name: backend
         image: joindevops/backend:v1
         envFrom:
